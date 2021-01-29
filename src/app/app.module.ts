@@ -13,7 +13,7 @@ import { AddPageComponent } from './admin/add-page/add-page.component';
 import { DashboardPageComponent } from './admin/dashboard-page/dashboard-page.component';
 import { EditPageComponent } from './admin/edit-page/edit-page.component';
 import { OrdersPageComponent } from './admin/orders-page/orders-page.component';
-import {AdminModule} from './admin/admin/admin.module';
+import {AdminModule} from './admin/admin.module';
 
 @NgModule({
   declarations: [
