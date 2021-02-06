@@ -18,7 +18,4 @@ export class LoginPageComponent implements OnInit {
      })
   }
 
-  submit() {
-
-  }
 }

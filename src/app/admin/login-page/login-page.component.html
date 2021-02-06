@@ -17,13 +17,13 @@
         <div *ngIf="form.get('password').touched && form.get('password').invalid" class="validation">
             <small *ngIf="form.get('password').errors.required">Enter Password</small>
             <small *ngIf="form.get('password').errors.minlength">
-              Пароль должен быть хотя бы  {{form.get('password').errors.minlength.requiredLength}} символов.
-                Сейчас {{form.get('password').errors.minlength.actualLength}}
+                Passwor must be at least  {{form.get('password').errors.minlength.requiredLength}} characters. 
+                Now he {{form.get('password').errors.minlength.actualLength}}
             </small>
         </div>
     </div>
 
     <button type="submit" class="btn btn-primary btn-block" [disabled]="form.inalid || submited">Logon</button>
-
+    
 
 </form>
